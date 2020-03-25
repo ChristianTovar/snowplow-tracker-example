@@ -1,1 +1,1 @@
-# snowplow-tracker-example
+# Snowplow Tracker Example
