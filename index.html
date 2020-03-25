@@ -11,9 +11,10 @@
     };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
     n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","sp.js","snowplow"));
     
-    window.snowplow('newTracker', 'cf', 'localhost:8080', { // Initialise a tracker
+    window.snowplow('newTracker', 'cf', 'localhost:7070', { // Initialise a tracker
       appId: 'collabra-tracker',
-      cookieDomain: 'cookies'
+      cookieDomain: 'cookies',
+      postPath: 'localhost:8080'
     });
     
     window.snowplow('trackPageView');
